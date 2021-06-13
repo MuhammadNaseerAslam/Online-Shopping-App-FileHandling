@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="10dp">>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="50dp"
+                android:text="Order For Online Shopping"
+                android:textColor="#4C326C"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="Fill out for or call   042 7894573                to complete our order!"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="50dp"
+                android:text="Select Item(S)"
+                android:textColor="#4C326C"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:id="@+id/llPaper"
+                    android:layout_width="150dp"
+                    android:layout_height="220dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/backgroundfunctionalities"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivPaper"
+                        android:layout_width="90dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingLeft="0dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:src="@drawable/papers" />
+
+                    <TextView
+                        android:id="@+id/textView79"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="35dp"
+                        android:text="Papers"
+                        android:textColor="#FF9C8EB8"
+                        android:textSize="18sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llStationary"
+                    android:layout_width="150dp"
+                    android:layout_height="220dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/backgroundfunctionalities"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivStationary"
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:paddingLeft="0dp"
+                        android:src="@drawable/stationery" />
+
+                    <TextView
+                        android:id="@+id/textView78"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="35dp"
+                        android:text="Other Stationaries"
+                        android:textColor="#FF9C8EB8"
+                        android:textSize="18sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="401dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llHardDisk"
+                    android:layout_width="150dp"
+                    android:layout_height="220dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/backgroundfunctionalities"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivHarddisk"
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:paddingLeft="0dp"
+                        android:src="@drawable/hard" />
+
+                    <TextView
+                        android:id="@+id/textView88"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="35dp"
+                        android:text="Hard Drives"
+                        android:textColor="#FF9C8EB8"
+                        android:textSize="18sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llWaste"
+                    android:layout_width="150dp"
+                    android:layout_height="220dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/backgroundfunctionalities"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivWaste"
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="true"
+                        android:baselineAlignBottom="true"
+                        android:clickable="true"
+                        android:paddingLeft="0dp"
+                        android:src="@drawable/waste" />
+
+                    <TextView
+                        android:id="@+id/textView98"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="35dp"
+                        android:text="Other Waste Material"
+                        android:textColor="#FF9C8EB8"
+                        android:textSize="18sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_next_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="40dp"
+
+                android:background="@color/colorPrimary"
+                android:text="                     NEXT                           →"
+                android:textColor="#F6F5FA" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

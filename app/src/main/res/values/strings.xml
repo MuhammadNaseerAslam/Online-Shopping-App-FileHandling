@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Online Shopping App</string>
+<string-array name="spineritem">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>11</item>
+    <item>12</item>
+    <item>13</item>
+    <item>14</item>
+    <item>15</item>
+    <item>16</item>
+    <item>17</item>
+    <item>18</item>
+    <item>19</item>
+    <item>20</item>
+</string-array>
+    <string name="simple_alert_dialog">Are You Sure?</string>
+
+    <string name="list_alert_dialog">List Alert Dialog</string>
+
+    <string name="check_list_alert_dialog">Check List Alert Dialog</string>
+
+    <string name="data_picker_dialog">Date Picker Dialog</string>
+
+    <string name="time_picker_dialog">Time Picker Dialog</string>
+
+    <string name="progress_dialog">Progress Dialog</string>
+
+    <string name="custom_alert_dialog">Custom Alert Dialog</string>
+
+    <string name="ok">Yes</string>
+
+    <string name="cancel">No</string>
+
+    <string name="please_wait">Please Wait...</string>
+
+    <string name="write_message">Write Message</string>
+
+    <string name="nothing_wrtiien">Nothing Written</string>
+
+    <string name="show">Show</string>
+    <string name="name">Name</string>
+
+    <string name="dept">Department</string>
+
+    <string name="cgpa">CGPA</string>
+
+    <string name="insert">Insert</string>
+</resources>

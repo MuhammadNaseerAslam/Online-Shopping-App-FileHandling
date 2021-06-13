@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<ImageView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/ic_launcher2"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:id="@+id/imageView"/>
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="26dp"
+    android:id="@+id/tvFName"
+    android:layout_toEndOf="@+id/imageView"
+    android:layout_toRightOf="@+id/imageView"
+    android:layout_alignTop="@+id/imageView"
+    android:text="@string/name"
+    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/tvEmail"
+    android:text="@string/dept"
+    android:textSize="10sp"
+    android:textStyle="bold"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_alignLeft="@+id/tvFName"
+    android:layout_alignBottom="@+id/imageView"/>
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/tvTime"
+    android:text="@string/cgpa"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_alignBaseline="@+id/tvEmail"
+    android:textSize="10sp"
+    android:textStyle="bold"
+    android:layout_marginRight="4dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

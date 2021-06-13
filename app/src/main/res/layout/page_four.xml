@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="60dp"
+                android:text="Order For Online Shopping"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="60dp"
+                android:text="Fill out form or call 042 8756894                   to complete your order"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:text="Company Details"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:text="* Required"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:text="Company Name* :"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+            <EditText
+                android:id="@+id/edtCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="60dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:text="Zip Code * :"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+            <EditText
+                android:id="@+id/edtZip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:ems="10"
+                android:inputType="phone"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:text="State * :"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+            <EditText
+                android:id="@+id/edtState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="60dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:text="City* :"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="60dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textSize="18sp"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:text="Possible Boxes* :"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+            <Spinner
+                android:id="@+id/spinnerBoxes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="60dp"/>
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="50dp"
+                android:background="#7032C8"
+                android:textColor="#E9E6EF"
+                android:text="SUBMIT REQUEST" />
+            <Button
+                android:id="@+id/btnSendMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="50dp"
+                android:background="#A58AC6"
+                android:textColor="#E9E6EF"
+                android:text="Send SMS" />
+            <Button
+                android:id="@+id/btnSendEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="50dp"
+                android:background="#85BFC1"
+                android:textColor="#E9E6EF"
+                android:text="Send Email" />
+            <Button
+                android:id="@+id/btn_next4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="50dp"
+                android:background="#6F9BBD"
+                android:textColor="#E9E6EF"
+                android:text="                     NEXT                           →" />
+            <Button
+                android:id="@+id/btn_previous_third"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="40dp"
+                android:background="#6E8291"
+                android:textColor="#F6F5F8"
+                android:text="←            PREVIOUS" />
+            <TextView
+                android:id="@+id/tvResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

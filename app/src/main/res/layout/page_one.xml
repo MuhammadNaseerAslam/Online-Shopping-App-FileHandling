@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="60dp"
+            android:text="Welcome   to"
+            android:textSize="36sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="60dp"
+            android:text="The Mall Of     Lahore"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="60dp"
+            android:text="We offer you many things to shop online.If you want to proceed an order please click on NEXT button"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnNextMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="40dp"
+            android:background="#702ECD"
+            android:text="                     NEXT                           →"
+            android:textColor="#FDFCFF" />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
